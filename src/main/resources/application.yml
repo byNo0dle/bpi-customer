@@ -1,0 +1,14 @@
+server:
+  port: 9003
+
+spring:
+  application:
+    name: bpicustomer
+  data:
+    mongodb:
+      database: "BpiDB"
+      uri: "mongodb+srv://${BD_USER}:${BD_PASSWORD}@cluster0.m5vgmwl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+  logging:
+    path: ./logs
+    max:
+      size: 10 MB
