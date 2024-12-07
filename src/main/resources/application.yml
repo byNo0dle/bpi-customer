@@ -7,7 +7,7 @@ spring:
   data:
     mongodb:
       database: "BpiDB"
-      uri: "mongodb+srv://${BD_USER}:${BD_PASSWORD}@cluster0.m5vgmwl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+      uri: mongodb://root:n123n@mongodb:27017/customers?authSource=admin
   logging:
     path: ./logs
     max:
